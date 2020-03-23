@@ -16,7 +16,8 @@ class UserControl {
                     res.status(400).json('password wrong')
                 } else {
                     let token = jwt.sign({id: data.id, username: data.username}, 'secret')
-                    res.status(400).json({
+                    console.log("sukses")
+                    res.status(200).json({
                         token: token,
                         id: data.id,
                         username: data.username
