@@ -7,9 +7,9 @@
 Terdapat sebuah aplikasi yang dapat melihat jumlah kasus penyebaran virus yang terdapat pada negara di dunia, dan juga authenticated user dapat melaporkan kasus pada negara yang terdaftar.
 ​
 Buatlah sebuah web app dengan fitur sebagai berikut:
-​ - User Login **10**
+​ - User Login **10** server done
 
-- Show Countries **10**
+- Show Countries **10** server done
 - Show My Reports **10** (Menampilkan reports yang dilaporkan user yang sedang login)
 - Add Reports **10** (Menambahkan reports yang dilaporkan user yang sedang login ke satu negara)
 - Delete Reports **10** (Menghapus reports yang dilaporkan user yang sedang login ke satu negara)

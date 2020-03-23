@@ -95,10 +95,8 @@ Response:
 ```json
 [
   {
-    "name": "string",
     "cases": "integer",
-    "deaths": "integer",
-    "recovered": "integer"
+    "Country": "string"
   }
 ]
 ```
@@ -118,8 +116,9 @@ Request:
 
 ```json
 {
-  "report": "integer",
-  "CountryId": "integer"
+  "cases": "integer", => namanya report di table saya
+  "CountryId": "integer" 
+
 }
 ```
 
@@ -133,7 +132,7 @@ Request:
 {
   "report": {
     "id": "integer",
-    "report": "integer",
+    "cases": "integer",5
     "UserId": "integer",
     "CountryId": "integer",
     "createdAt": "2020-03-17T12:00:56.894Z",
@@ -143,7 +142,7 @@ Request:
       "name": "Afghanistan",
       "deaths": 0,
       "recovered": 1,
-      "cases": 20,
+      "cases": 20,25
       "createdAt": "2020-03-17T12:00:56.894Z",
       "updatedAt": "2020-03-22T10:19:48.449Z"
     }
